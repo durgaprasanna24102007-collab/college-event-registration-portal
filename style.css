@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5ff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    background: navy;
+    color: white;
+    padding: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 6px;
+}
+
+button {
+    background: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.event {
+    background: white;
+    padding: 15px;
+    margin: 12px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #aaa;
+}
+
+form {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 500px;
+}
+
+.event button {
+    background: green;
+}
+
+.cancel {
+    background: red !important;
+}
+
+a {
+    color: blue;
+}
