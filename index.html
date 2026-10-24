@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>College Event Registration Portal</h1>
+
+<h2>Available Events</h2>
+
+<input type="text" id="search" placeholder="Search event name">
+
+<select id="category">
+    <option value="">All Categories</option>
+    <option value="Technical">Technical</option>
+    <option value="Cultural">Cultural</option>
+    <option value="Sports">Sports</option>
+</select>
+
+<input type="date" id="dateFilter">
+<button onclick="showEvents()">Search / Filter</button>
+
+<div id="events"></div>
+
+<h2>Event Registration</h2>
+
+<form id="regForm">
+    <input type="text" id="student" placeholder="Student Name" required>
+    <input type="text" id="roll" placeholder="Roll Number" required>
+    <input type="email" id="email" placeholder="Email Address" required>
+    <input type="text" id="eventId" placeholder="Event ID" required>
+    <button type="submit">Register</button>
+</form>
+
+<h2>My Registrations</h2>
+<div id="myEvents"></div>
+
+<p>
+    Project Repository:
+    <a href="https://github.com/new" target="_blank">
+        College Event Registration Portal
+    </a>
+</p>
+
+<script src="script.js"></script>
+</body>
+</html>
